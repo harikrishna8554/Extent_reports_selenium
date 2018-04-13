@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="regression suite" parallel="tests">
+	<test name="test_regression">
+		<classes>
+			<class name="scripts.Edit_Lead_Information_in_V_tiger_7"></class>
+			<class name="scripts.Login_Script_In_Selenium_1"></class>
+			<class name="scripts.TestScript"></class>
+		</classes>
+	</test>
+
+	<test name="test_regression1">
+		<classes>
+			<class name="scripts.Edit_Lead_Information_in_V_tiger_7"></class>
+			<class name="scripts.Login_Script_In_Selenium_1"></class>
+			<class name="scripts.TestScript"></class>
+		</classes>
+	</test>
+
+	<test name="test_regression2">
+		<classes>
+			<class name="scripts.Edit_Lead_Information_in_V_tiger_7"></class>
+			<class name="scripts.Login_Script_In_Selenium_1"></class>
+			<class name="scripts.TestScript"></class>
+		</classes>
+	</test>
+</suite>
